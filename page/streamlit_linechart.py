@@ -36,7 +36,7 @@ def plot_temperature(data):
 
 def main():
     st.title('대전광역시 연도별 평균온도 비교 (2010 - 2023)')
-    filepath = './대전광역시_년도별온도_기본_2010-2023.csv'
+    filepath = './data/대전광역시_년도별온도_기본_2010-2023.csv'
     data = load_data(filepath)
     st.write("대전지역 연도별 평균온도 비교")
     st.dataframe(data.head())
