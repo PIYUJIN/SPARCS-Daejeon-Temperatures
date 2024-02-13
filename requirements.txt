@@ -1,0 +1,10 @@
+streamlit
+numpy
+pandas
+netCDF4
+folium
+matplotlib
+branca
+streamlit-folium
+shapely
+st-pages
