@@ -15,11 +15,11 @@ def load_data(filepath):
 
 
 def plot_temperature(data):
-    plt.figure(figsize=(10, 5))
-    plt.plot(data['Year'], data['LowestTemperature'], marker='o',
-             linestyle='-', color='blue', label='Average Lowest Temperature')  # 평균 최저 온도
-    plt.plot(data['Year'], data['AverageTemperature'], marker='o',
-             linestyle='-', color='green', label='Average Temperature')  # 평균 온도
+    plt.figure(figsize=(10, 7))
+    # plt.plot(data['Year'], data['LowestTemperature'], marker='o',
+    #          linestyle='-', color='blue', label='Average Lowest Temperature')  # 평균 최저 온도
+    # # plt.plot(data['Year'], data['AverageTemperature'], marker='o',
+    # #          linestyle='-', color='green', label='Average Temperature')  # 평균 온도
     plt.plot(data['Year'], data['HighestTemperature'], marker='o',
              linestyle='-', color='red', label='Average Highest Temperature')  # 평균 최고 온도
     plt.title('Yearly Temperature Trends in Daejeon (2010 - 2023)')
