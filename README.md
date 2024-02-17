@@ -4,7 +4,7 @@
 <br>
 ## 참고 데이터 
 기상청 데이터 : 
-[기상청 기후변화 표준 시나리오](http://www.climate.go.kr/home/CCS/contents_2021/35_download.php)
+[기상청 기후변화 표준 시나리오](http://www.climate.go.kr/home/CCS/contents_2021/35_download.php) / 
 [기상청 기온분석](https://data.kma.go.kr/stcs/grnd/grndTaList.do?pgmNo=70)
  <br>
 행정동 경계 데이터 : [행정동 경계](https://github.com/vuski/admdongkor)
@@ -12,7 +12,7 @@
 <br>
 ## 데이터 
 Daejeon.geojson : 대전지역 행정동 경계 정보 <br>
-merged_avg_tamax_by_region.csv : 대전지역 각 행정구역의 일별 최고온도 (2000년 ~ 2019년)
+merged_avg_tamax_by_region.csv : 대전지역 각 행정구역의 일별 최고온도 (2000년 ~ 2019년) <br>
 대전광역시_년도별온도_기본_2010-2023 : 대전지역 연도별 평균기온, 최저기온, 최고기온 (2010 ~ 2023년)
 <br>
 <br>
